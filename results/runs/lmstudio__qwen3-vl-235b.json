@@ -1,0 +1,8 @@
+{
+ "engine": "lmstudio",
+ "model": "qwen3-vl-235b",
+ "model_name": "Qwen3-VL-235B-A22B",
+ "status": "unsupported",
+ "reason": "split GGUF; not imported",
+ "finished": "2026-10-23T22:49:00"
+}

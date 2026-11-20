@@ -1,0 +1,8 @@
+{
+ "engine": "lmstudio",
+ "model": "glm-5.3-flash",
+ "model_name": "GLM-5.3-Flash",
+ "status": "unsupported",
+ "reason": "split GGUF; not imported",
+ "finished": "2026-10-24T17:12:53"
+}

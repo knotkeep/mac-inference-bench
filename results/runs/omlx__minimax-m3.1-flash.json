@@ -1,0 +1,8 @@
+{
+ "engine": "omlx",
+ "model": "minimax-m3.1-flash",
+ "model_name": "MiniMax-M3.1-Flash",
+ "status": "failed",
+ "error": "TimeoutError: not ready after 1800s: HTTP 409: {\"error\":{\"message\":\"Model 'minimax-m3.1-flash' is unavailable after a previous load failure: Received 855 parameters not in model: \\ninner.language_model.model.layers.10.block_sparse_moe.shared_exper",
+ "finished": "2026-10-24T16:29:26"
+}

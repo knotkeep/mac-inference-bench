@@ -1,0 +1,8 @@
+{
+ "engine": "lmstudio-mlx",
+ "model": "qwen3.8-flash-next",
+ "model_name": "Qwen3.8-Flash-Next",
+ "status": "failed",
+ "error": "RuntimeError: lms load failed: python3.11/site-packages/mlx_vlm/models/qwen4_exp/fp8.py\", line 115, in convert_qwen4_exp_fp8_weights\n    raise ValueError(f\"Missing FP8 PLE shards for scale {scale_key!r}.\")\nValueError: Missing FP8 PLE shards for scale 'language_model.model.layers.1.ple.ple_embedding.ngram_embedding.weight_scale'.\n",
+ "finished": "2026-10-23T20:54:52"
+}

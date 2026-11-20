@@ -1,0 +1,8 @@
+{
+ "engine": "lmstudio",
+ "model": "mimo-v2.6-flash",
+ "model_name": "MiMo-V2.6-Flash-MOPD",
+ "status": "unsupported",
+ "reason": "split GGUF; not imported",
+ "finished": "2026-10-24T17:12:53"
+}

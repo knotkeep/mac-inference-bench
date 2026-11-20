@@ -1,0 +1,1018 @@
+{
+ "engine": "llama.cpp",
+ "model": "glm-5.3-flash",
+ "served_as": "glm-5.3-flash",
+ "started": "2026-10-24T15:06:52",
+ "status": "ok",
+ "model_name": "GLM-5.3-Flash",
+ "params": "320B total / 18B active",
+ "version": "version: 0.7.0 (build 11669, commit 620d2225c)",
+ "load_s": 24.4,
+ "memory_gb": 180.6,
+ "mem_baseline": 45.1,
+ "spec_type": null,
+ "speed": {
+  "1000": {
+   "runs": [
+    {
+     "error": null,
+     "ttft_s": 1.0908329160010908,
+     "total_s": 13.677326208009617,
+     "prompt_tokens": 1138,
+     "output_tokens": 493,
+     "prefill_tps": 1043.2395129510944,
+     "decode_tps": 39.16980357646735,
+     "usage_reported": true,
+     "finish_reason": "stop",
+     "reasoning_chars": 1784,
+     "tool_calls": []
+    },
+    {
+     "error": null,
+     "ttft_s": 1.1857720829721075,
+     "total_s": 14.253624957986176,
+     "prompt_tokens": 1141,
+     "output_tokens": 512,
+     "prefill_tps": 962.2422524403785,
+     "decode_tps": 39.10387401562074,
+     "usage_reported": true,
+     "finish_reason": "length",
+     "reasoning_chars": 2139,
+     "tool_calls": []
+    },
+    {
+     "error": null,
+     "ttft_s": 1.1366752079920843,
+     "total_s": 14.207984374981606,
+     "prompt_tokens": 1140,
+     "output_tokens": 512,
+     "prefill_tps": 1002.9250149774876,
+     "decode_tps": 39.093618907384794,
+     "usage_reported": true,
+     "finish_reason": "length",
+     "reasoning_chars": 2365,
+     "tool_calls": []
+    }
+   ],
+   "prompt_tokens": 1140,
+   "ttft_s": 1.1366752079920843,
+   "prefill_tps": 1002.9250149774876,
+   "decode_tps": 39.10387401562074,
+   "output_tokens": 512,
+   "errors": 0
+  },
+  "4000": {
+   "runs": [
+    {
+     "error": "HTTP 400: {\"error\":{\"code\":400,\"message\":\"Unable to generate parser for this template. Automatic parser generation failed: \\n------------\\nWhile executing CallExpression at line 163, column 57 in source:\\n...c.arguments %}{% for k, v in _args.items() %}<arg_key>{{ k }}</arg_key><arg_valu...\\n                 ",
+     "tools_sent": false
+    },
+    {
+     "error": "HTTP 400: {\"error\":{\"code\":400,\"message\":\"Unable to generate parser for this template. Automatic parser generation failed: \\n------------\\nWhile executing CallExpression at line 163, column 57 in source:\\n...c.arguments %}{% for k, v in _args.items() %}<arg_key>{{ k }}</arg_key><arg_valu...\\n                 ",
+     "tools_sent": false
+    },
+    {
+     "error": "HTTP 400: {\"error\":{\"code\":400,\"message\":\"Unable to generate parser for this template. Automatic parser generation failed: \\n------------\\nWhile executing CallExpression at line 163, column 57 in source:\\n...c.arguments %}{% for k, v in _args.items() %}<arg_key>{{ k }}</arg_key><arg_valu...\\n                 ",
+     "tools_sent": false
+    }
+   ],
+   "prompt_tokens": null,
+   "ttft_s": null,
+   "prefill_tps": null,
+   "decode_tps": null,
+   "output_tokens": null,
+   "errors": 3
+  },
+  "16000": {
+   "runs": [
+    {
+     "error": "HTTP 400: {\"error\":{\"code\":400,\"message\":\"Unable to generate parser for this template. Automatic parser generation failed: \\n------------\\nWhile executing CallExpression at line 163, column 57 in source:\\n...c.arguments %}{% for k, v in _args.items() %}<arg_key>{{ k }}</arg_key><arg_valu...\\n                 ",
+     "tools_sent": false
+    },
+    {
+     "error": "HTTP 400: {\"error\":{\"code\":400,\"message\":\"Unable to generate parser for this template. Automatic parser generation failed: \\n------------\\nWhile executing CallExpression at line 163, column 57 in source:\\n...c.arguments %}{% for k, v in _args.items() %}<arg_key>{{ k }}</arg_key><arg_valu...\\n                 ",
+     "tools_sent": false
+    },
+    {
+     "error": "HTTP 400: {\"error\":{\"code\":400,\"message\":\"Unable to generate parser for this template. Automatic parser generation failed: \\n------------\\nWhile executing CallExpression at line 163, column 57 in source:\\n...c.arguments %}{% for k, v in _args.items() %}<arg_key>{{ k }}</arg_key><arg_valu...\\n                 ",
+     "tools_sent": false
+    }
+   ],
+   "prompt_tokens": null,
+   "ttft_s": null,
+   "prefill_tps": null,
+   "decode_tps": null,
+   "output_tokens": null,
+   "errors": 3
+  }
+ },
+ "concurrency": {
+  "requests": 4,
+  "wall_s": 0.012554000015370548,
+  "aggregate_tps": 0.0,
+  "errors": 4
+ },
+ "tool_calls": {
+  "cases": 80,
+  "made_call": 0.0,
+  "valid_json": 0.0,
+  "schema_valid": 0.0,
+  "right_tool": 0.0,
+  "errors": 0,
+  "checks": [
+   {
+    "case_id": "claim_status-001",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 1.062089167011436
+   },
+   {
+    "case_id": "claim_status-004",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 1.0118335410079453
+   },
+   {
+    "case_id": "claim_status-007",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 0.9868493750109337
+   },
+   {
+    "case_id": "claim_status-009",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 1.0163920830236748
+   },
+   {
+    "case_id": "claim_status-010",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 0.9956983749871142
+   },
+   {
+    "case_id": "claim_status-011",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 1.0178205420088489
+   },
+   {
+    "case_id": "claim_status-016",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 1.0244353750022128
+   },
+   {
+    "case_id": "claim_status-018",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 0.971956624998711
+   },
+   {
+    "case_id": "claim_status-019",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 1.03388333300245
+   },
+   {
+    "case_id": "claim_status-024",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 1.0087497500062454
+   },
+   {
+    "case_id": "deductible_progress-001",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 0.9986349579994567
+   },
+   {
+    "case_id": "deductible_progress-002",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 1.0126988329866435
+   },
+   {
+    "case_id": "deductible_progress-005",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 1.0112858329957817
+   },
+   {
+    "case_id": "deductible_progress-006",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 0.962861707987031
+   },
+   {
+    "case_id": "deductible_progress-009",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 0.9854249579948373
+   },
+   {
+    "case_id": "deductible_progress-010",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 1.0122462500003166
+   },
+   {
+    "case_id": "deductible_progress-011",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 1.0120382500172127
+   },
+   {
+    "case_id": "deductible_progress-012",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 1.0116937920101918
+   },
+   {
+    "case_id": "deductible_progress-015",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 1.0129657079814933
+   },
+   {
+    "case_id": "deductible_progress-019",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 1.0186009999888483
+   },
+   {
+    "case_id": "eligibility_active-003",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 0.9553667909931391
+   },
+   {
+    "case_id": "eligibility_active-006",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 0.969039084011456
+   },
+   {
+    "case_id": "eligibility_active-008",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 0.961470875015948
+   },
+   {
+    "case_id": "eligibility_active-009",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 0.970211499981815
+   },
+   {
+    "case_id": "eligibility_active-013",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 0.9638675410242286
+   },
+   {
+    "case_id": "eligibility_active-015",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 0.9669679579965305
+   },
+   {
+    "case_id": "eligibility_active-019",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 1.0194267499900889
+   },
+   {
+    "case_id": "eligibility_active-021",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 0.9673357089923229
+   },
+   {
+    "case_id": "eligibility_active-023",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 1.0155347079853527
+   },
+   {
+    "case_id": "eligibility_active-024",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 1.0118133750220295
+   },
+   {
+    "case_id": "prior_auth_status-001",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 0.9934214589884505
+   },
+   {
+    "case_id": "prior_auth_status-002",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 0.956823041982716
+   },
+   {
+    "case_id": "prior_auth_status-004",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 0.9717856670031324
+   },
+   {
+    "case_id": "prior_auth_status-006",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 1.0131769579893444
+   },
+   {
+    "case_id": "prior_auth_status-009",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 0.9882971670012921
+   },
+   {
+    "case_id": "prior_auth_status-011",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 1.028692875028355
+   },
+   {
+    "case_id": "prior_auth_status-012",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 0.9576592090015765
+   },
+   {
+    "case_id": "prior_auth_status-018",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 0.9923296669730917
+   },
+   {
+    "case_id": "prior_auth_status-022",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 1.003227583016269
+   },
+   {
+    "case_id": "prior_auth_status-025",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 1.02447883298737
+   },
+   {
+    "case_id": "provider_search-001",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 1.0207805829995777
+   },
+   {
+    "case_id": "provider_search-002",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 0.9872871660045348
+   },
+   {
+    "case_id": "provider_search-003",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 0.9926391250046436
+   },
+   {
+    "case_id": "provider_search-004",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 1.0373649999964982
+   },
+   {
+    "case_id": "provider_search-005",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 0.9876498329977039
+   },
+   {
+    "case_id": "provider_search-006",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 1.023483375000069
+   },
+   {
+    "case_id": "provider_search-007",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 0.9975060409924481
+   },
+   {
+    "case_id": "provider_search-008",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 0.9800391670141835
+   },
+   {
+    "case_id": "provider_search-009",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 0.9875438750023022
+   },
+   {
+    "case_id": "provider_search-010",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 0.988204624998616
+   },
+   {
+    "case_id": "denied_claim_explain-003",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 1.02108820900321
+   },
+   {
+    "case_id": "denied_claim_explain-004",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 0.3440131669922266
+   },
+   {
+    "case_id": "denied_claim_explain-005",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 0.9971450839948375
+   },
+   {
+    "case_id": "denied_claim_explain-007",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 0.9928834159800317
+   },
+   {
+    "case_id": "denied_claim_explain-008",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 0.2997173330222722
+   },
+   {
+    "case_id": "denied_claim_explain-009",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 1.0114214589993935
+   },
+   {
+    "case_id": "denied_claim_explain-016",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 0.9936969169939402
+   },
+   {
+    "case_id": "denied_claim_explain-020",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 0.9562871249800082
+   },
+   {
+    "case_id": "denied_claim_explain-021",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 1.0225872500159312
+   },
+   {
+    "case_id": "denied_claim_explain-022",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 0.341711832996225
+   },
+   {
+    "case_id": "eligibility_termed-001",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 0.9452477080048993
+   },
+   {
+    "case_id": "eligibility_termed-004",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 0.9950760409992654
+   },
+   {
+    "case_id": "eligibility_termed-005",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 0.804390749981394
+   },
+   {
+    "case_id": "eligibility_termed-006",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 0.315664833993651
+   },
+   {
+    "case_id": "eligibility_termed-007",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 0.9881178329815157
+   },
+   {
+    "case_id": "pt_limit-001",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 0.9963713749893941
+   },
+   {
+    "case_id": "pt_limit-004",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 0.998572124983184
+   },
+   {
+    "case_id": "pt_limit-005",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 1.0138547079986893
+   },
+   {
+    "case_id": "pt_limit-007",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 0.9644502500013914
+   },
+   {
+    "case_id": "pt_limit-010",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 0.960596541990526
+   },
+   {
+    "case_id": "prior_auth_rule-001",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 0.9929275000176858
+   },
+   {
+    "case_id": "prior_auth_rule-002",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 0.9586814159993082
+   },
+   {
+    "case_id": "prior_auth_rule-004",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 0.9759889999986626
+   },
+   {
+    "case_id": "prior_auth_rule-005",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 0.9443564579996746
+   },
+   {
+    "case_id": "prior_auth_rule-006",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 0.9581328749773093
+   },
+   {
+    "case_id": "appeals_rule-003",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 1.0107700420194305
+   },
+   {
+    "case_id": "appeals_rule-005",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 1.023452666006051
+   },
+   {
+    "case_id": "appeals_rule-006",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 0.9992357089940924
+   },
+   {
+    "case_id": "appeals_rule-007",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 1.0017146249883808
+   },
+   {
+    "case_id": "appeals_rule-008",
+    "error": null,
+    "made_call": false,
+    "valid_json": false,
+    "schema_valid": false,
+    "right_tool": false,
+    "first_tool": null,
+    "problem": "no tool call",
+    "ttft_s": 1.022003833000781
+   }
+  ]
+ },
+ "golden": {
+  "cases": 100,
+  "errors": 0,
+  "pass_rate": 0.2,
+  "by_slice": {
+   "edge": 0.0,
+   "happy": 0.0,
+   "historical": 1.0,
+   "refusal": 1.0
+  },
+  "minutes": 6.294835997916622
+ },
+ "finished": "2026-10-24T15:18:07"
+}

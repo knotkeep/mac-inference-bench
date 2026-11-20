@@ -1,0 +1,8 @@
+{
+ "engine": "ollama",
+ "model": "glm-4.7",
+ "model_name": "GLM-4.7",
+ "status": "unsupported",
+ "reason": "split GGUF; ollama create takes a single file",
+ "finished": "2026-10-24T01:40:05"
+}

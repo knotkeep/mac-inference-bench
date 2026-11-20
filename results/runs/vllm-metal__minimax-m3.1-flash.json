@@ -1,0 +1,8 @@
+{
+ "engine": "vllm-metal",
+ "model": "minimax-m3.1-flash",
+ "model_name": "MiniMax-M3.1-Flash",
+ "status": "failed",
+ "error": "RuntimeError: server exited with code 1: ConnectError",
+ "finished": "2026-10-24T05:13:14"
+}

@@ -1,0 +1,8 @@
+{
+ "engine": "mlx-lm+spec",
+ "model": "mimo-v2.6-flash",
+ "model_name": "MiMo-V2.6-Flash-MOPD",
+ "status": "failed",
+ "error": "RuntimeError: server exited with code 3: HTTP 404: {\"error\": \"generation thread died\"}",
+ "finished": "2026-10-24T03:37:44"
+}

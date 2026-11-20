@@ -1,0 +1,8 @@
+{
+ "engine": "lmstudio-mlx",
+ "model": "mimo-v2.6-flash",
+ "model_name": "MiMo-V2.6-Flash-MOPD",
+ "status": "failed",
+ "error": "RuntimeError: lms import did not register servebench/mimo-v2.6-flash-mlx",
+ "finished": "2026-10-24T12:57:34"
+}

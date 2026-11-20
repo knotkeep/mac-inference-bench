@@ -1,0 +1,8 @@
+{
+ "engine": "vllm-mlx",
+ "model": "mimo-v2.6-flash",
+ "model_name": "MiMo-V2.6-Flash-MOPD",
+ "status": "failed",
+ "error": "RuntimeError: server exited with code 3: ConnectError",
+ "finished": "2026-10-24T03:34:32"
+}

@@ -1,0 +1,163 @@
+[
+ {
+  "type": "function",
+  "function": {
+   "name": "check_eligibility",
+   "description": "Look up whether a member is currently covered and on which plan.\n\n    Returns plan name, active flag, effective/termination dates, PCP, and deductible progress.",
+   "parameters": {
+    "properties": {
+     "member_id": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "member_id"
+    ],
+    "type": "object"
+   }
+  }
+ },
+ {
+  "type": "function",
+  "function": {
+   "name": "list_claims",
+   "description": "List all claims for a member with status, amounts, and denial code if denied.",
+   "parameters": {
+    "properties": {
+     "member_id": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "member_id"
+    ],
+    "type": "object"
+   }
+  }
+ },
+ {
+  "type": "function",
+  "function": {
+   "name": "get_claim",
+   "description": "Get one claim by claim ID, including the plain-English meaning of any denial code.",
+   "parameters": {
+    "properties": {
+     "claim_id": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "claim_id"
+    ],
+    "type": "object"
+   }
+  }
+ },
+ {
+  "type": "function",
+  "function": {
+   "name": "get_prior_auths",
+   "description": "List prior authorization requests for a member with status, dates, and reviewer notes.",
+   "parameters": {
+    "properties": {
+     "member_id": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "member_id"
+    ],
+    "type": "object"
+   }
+  }
+ },
+ {
+  "type": "function",
+  "function": {
+   "name": "search_plan_document",
+   "description": "Search the plan's benefits document. Use for coverage rules, limits, appeals, and network\n    questions. Returns the most relevant sections.",
+   "parameters": {
+    "properties": {
+     "query": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "query"
+    ],
+    "type": "object"
+   }
+  }
+ },
+ {
+  "type": "function",
+  "function": {
+   "name": "find_providers",
+   "description": "Find providers by specialty (cardiology, dermatology, orthopedics, physical therapy,\n    endocrinology), optionally filtered by ZIP code and network status.",
+   "parameters": {
+    "properties": {
+     "specialty": {
+      "type": "string"
+     },
+     "zip_code": {
+      "type": "string"
+     },
+     "in_network_only": {
+      "default": true,
+      "type": "boolean"
+     }
+    },
+    "required": [
+     "specialty"
+    ],
+    "type": "object"
+   }
+  }
+ },
+ {
+  "type": "function",
+  "function": {
+   "name": "update_contact_info",
+   "description": "Update a member's mailing address and/or phone number on file.",
+   "parameters": {
+    "properties": {
+     "member_id": {
+      "type": "string"
+     },
+     "address": {
+      "type": "string"
+     },
+     "phone": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "member_id"
+    ],
+    "type": "object"
+   }
+  }
+ },
+ {
+  "type": "function",
+  "function": {
+   "name": "file_appeal",
+   "description": "File a first-level appeal on a denied claim. The reason is sent to the appeals team.",
+   "parameters": {
+    "properties": {
+     "claim_id": {
+      "type": "string"
+     },
+     "reason": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "claim_id",
+     "reason"
+    ],
+    "type": "object"
+   }
+  }
+ }
+]

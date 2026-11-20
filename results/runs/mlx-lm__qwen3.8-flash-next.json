@@ -1,0 +1,8 @@
+{
+ "engine": "mlx-lm",
+ "model": "qwen3.8-flash-next",
+ "model_name": "Qwen3.8-Flash-Next",
+ "status": "failed",
+ "error": "TimeoutError: not ready after 1800s: HTTP 404: {\"error\": \"generation thread died\"}",
+ "finished": "2026-10-23T20:39:07"
+}

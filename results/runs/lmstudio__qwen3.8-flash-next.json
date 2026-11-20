@@ -1,0 +1,8 @@
+{
+ "engine": "lmstudio",
+ "model": "qwen3.8-flash-next",
+ "model_name": "Qwen3.8-Flash-Next",
+ "status": "unsupported",
+ "reason": "split GGUF; not imported",
+ "finished": "2026-10-24T17:12:53"
+}

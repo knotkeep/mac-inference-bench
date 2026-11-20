@@ -1,0 +1,93 @@
+{
+ "best": [
+  {
+   "model": "DeepSeek-V4-Flash-0731",
+   "fastest_engine": "llama.cpp+spec",
+   "decode_tps_4k": 69.7800514423819,
+   "prefill_tps_16k": 656.2566493350566,
+   "golden_best": 0.95,
+   "engines_ran": 6
+  },
+  {
+   "model": "Gemma 4 26B-A4B",
+   "fastest_engine": "llama.cpp+spec",
+   "decode_tps_4k": 167.00550056466906,
+   "prefill_tps_16k": 4040.4079363413425,
+   "golden_best": 0.91,
+   "engines_ran": 10
+  },
+  {
+   "model": "Gemma 4 31B",
+   "fastest_engine": "llama.cpp+spec",
+   "decode_tps_4k": 59.989890942614856,
+   "prefill_tps_16k": 894.9629905993271,
+   "golden_best": 0.99,
+   "engines_ran": 9
+  },
+  {
+   "model": "GLM-5.3-Flash",
+   "fastest_engine": "omlx",
+   "decode_tps_4k": 83.85513852053641,
+   "prefill_tps_16k": 1904.659008000685,
+   "golden_best": 0.9,
+   "engines_ran": 5
+  },
+  {
+   "model": "gpt-oss-120B",
+   "fastest_engine": "llama.cpp+spec",
+   "decode_tps_4k": 145.8044883453728,
+   "prefill_tps_16k": 2290.6304006815917,
+   "golden_best": 0.94,
+   "engines_ran": 9
+  },
+  {
+   "model": "MiMo-V2.6-Flash-MOPD",
+   "fastest_engine": "llama.cpp+spec",
+   "decode_tps_4k": 97.15667165445977,
+   "prefill_tps_16k": 981.4391594021848,
+   "golden_best": 0.93,
+   "engines_ran": 2
+  },
+  {
+   "model": "Qwen3.8 27B",
+   "fastest_engine": "llama.cpp+spec",
+   "decode_tps_4k": 84.1768746397504,
+   "prefill_tps_16k": 972.7354876572505,
+   "golden_best": 0.97,
+   "engines_ran": 9
+  },
+  {
+   "model": "GLM-4.7",
+   "fastest_engine": "omlx",
+   "decode_tps_4k": 33.70073028400542,
+   "prefill_tps_16k": 827.7907793571899,
+   "golden_best": 0.89,
+   "engines_ran": 6
+  },
+  {
+   "model": "Qwen3-VL-235B-A22B",
+   "fastest_engine": "llama.cpp",
+   "decode_tps_4k": 45.70660482523987,
+   "prefill_tps_16k": 558.2546219200501,
+   "golden_best": 0.84,
+   "engines_ran": 6
+  },
+  {
+   "model": "Qwen3.8-Flash-Next",
+   "fastest_engine": "omlx+spec",
+   "decode_tps_4k": 160.10038598752703,
+   "prefill_tps_16k": 3972.10220000343,
+   "golden_best": 0.95,
+   "engines_ran": 5
+  },
+  {
+   "model": "MiniMax-M3.1-Flash",
+   "fastest_engine": "mlx-lm",
+   "decode_tps_4k": 32.12678002868256,
+   "prefill_tps_16k": 970.5809971956458,
+   "golden_best": 0.2,
+   "engines_ran": 1
+  }
+ ],
+ "runs": 113
+}

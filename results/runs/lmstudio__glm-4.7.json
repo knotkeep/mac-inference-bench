@@ -1,0 +1,8 @@
+{
+ "engine": "lmstudio",
+ "model": "glm-4.7",
+ "model_name": "GLM-4.7",
+ "status": "unsupported",
+ "reason": "split GGUF; not imported",
+ "finished": "2026-10-24T01:40:05"
+}

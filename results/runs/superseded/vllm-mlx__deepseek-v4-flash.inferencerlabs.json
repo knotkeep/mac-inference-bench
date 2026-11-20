@@ -1,0 +1,8 @@
+{
+ "engine": "vllm-mlx",
+ "model": "deepseek-v4-flash",
+ "model_name": "DeepSeek-V4-Flash-0731",
+ "status": "failed",
+ "error": "RuntimeError: server exited with code 3: ConnectError",
+ "finished": "2026-10-24T03:06:11"
+}

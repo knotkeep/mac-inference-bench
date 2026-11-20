@@ -1,0 +1,8 @@
+{
+ "engine": "vllm-mlx+spec",
+ "model": "glm-5.3-flash",
+ "model_name": "GLM-5.3-Flash",
+ "status": "failed",
+ "error": "RuntimeError: server exited with code 3: ConnectError",
+ "finished": "2026-10-24T04:15:55"
+}
